@@ -1,0 +1,24 @@
+{
+  "name": "figma-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Figma API - get designs, nodes, and images",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js"
+  },
+  "keywords": ["mcp", "figma", "design", "api"],
+  "author": "Boundless Digital",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
